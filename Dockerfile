@@ -1,3 +1,5 @@
 FROM nginx
 
-COPY html /usr/share/nginx/html
+COPY html /data/www
+COPY data /data
+COPY nginx.conf /etc/nginx/nginx.conf
